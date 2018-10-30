@@ -15,7 +15,7 @@ $idclan = "678998";
 $nomeclan = "GhostStars";
 
 echo $pbclass->Clan_Info_Wrapper_EXP($idclan, $nomeclan);
-
+```markdown
 
 ### Support or Contact
 
