@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## ClassPB by SkelletonX
 
-You can use the [editor on GitHub](https://github.com/SkelletonX/ClassPB/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Bom, Menininhos criei essa classe para obter dados do rank do [PBBR](https://pb.ongame.net/), atravez do [DOMDocument](http://php.net/manual/pt_BR/class.domdocument.php).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Tutorial
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Abaixo vou mostrar um exemplo de como usar a classe simples.
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+include("class/PB.class.php");
+$pbclass = new PB();
 
-- Bulleted
-- List
+$idclan = "678998";
+$nomeclan = "GhostStars";
 
-1. Numbered
-2. List
+echo $pbclass->Clan_Info_Wrapper_EXP($idclan, $nomeclan);
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SkelletonX/ClassPB/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Para obter meu contato caso aja erro da classe, [RageZone](http://ragezone.com.br/index.php/user/121414-skelletonx/), ou use [Issues](https://github.com/SkelletonX/ClassPB/issues)
